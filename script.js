@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado:
-        "Qual dessas empresas é mais reconhecida por seus avanços com a IA",
+        "1.Qual dessas empresas é mais reconhecida por seus avanços com a IA",
 
         alternativas:[
             "Google",
@@ -16,7 +16,7 @@ const perguntas = [
     },
     {
         enunciado:
-        "qual é um dos principais objetivos da IA",
+        "2.qual é um dos principais objetivos da IA",
 
         alternativas:[
             "criar maquinas que subistituam todos os empregos humanos",
@@ -25,7 +25,7 @@ const perguntas = [
     },
     {
         enunciado:
-        "Oque é um algoritimo em IA",
+        "3.Oque é um algoritimo em IA",
 
         alternativas:[
             "A criação automática de conteúdo em diversas mídias (texto, imagem, ví",
