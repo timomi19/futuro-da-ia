@@ -1,0 +1,41 @@
+:root {
+    --bg: #01080E;
+    --primary: #0B0D20;
+    --secondary: #212333;
+    --highlight: #2BDEFD;
+    --text: #D7F9FF;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    background-color: var(--primary);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--highlight);
+}
+
+button {
+    background-color: var(--secondary);
+    color: var(--text);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--highlight);
+    color: var(--primary);
+}
